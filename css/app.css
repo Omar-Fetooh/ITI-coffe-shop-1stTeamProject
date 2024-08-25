@@ -1,0 +1,331 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #FDFCF7;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+    position: sticky;
+}
+
+.title {
+    margin-left: 30px;
+    margin-top: 6px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.lists {
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.message {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.msg {
+    margin: 30px;
+    border: 3px solid #13293D;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+li {
+    padding: 10px;
+    color: #6A7B76;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    background-image: url('../assets/coffee.jpg');
+    width: 90%;
+    height: 590px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: white;
+}
+
+.img h1 {
+    font-size: 5em;
+    margin: 70px;
+    line-height: 5rem;
+}
+
+.img p {
+    margin: 0px 70px;
+    line-height: 22px;
+}
+
+.img button {
+    padding: 15px 45px;
+    margin: 50px 70px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #0E8684;
+    color: #FDFCF7;
+    cursor: pointer;
+    border: 2px solid #0E8684;
+}
+
+.sec2 {
+    margin-top: 10em;
+}
+
+.collection-title {
+    text-align: center;
+    font-size: 7rem;
+    line-height: 6rem;
+    font-weight: bold;
+    opacity: 0.5;
+    margin: 0;
+    color: rgb(131, 136, 143);
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    font-family: Fraunces, serif;
+}
+
+.coffee-collection-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.coffee h4 {
+    font-family: Fraunces, serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    line-height: 18px;
+}
+
+.coffee {
+    text-align: center;
+}
+
+.coffee p {
+    text-align: center;
+    font-family: Barlow, sans-serif;
+    line-height: 24px;
+    color: rgb(51, 61, 75);
+}
+
+
+/* ============================================================================================= */
+
+
+body {
+    font-family: system-ui, -apple-system, Bli nkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #FDFCF7;
+    margin: 0;
+}
+
+div.why-choose-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #2D343C;
+    color: #FDFCF7;
+    line-height: 1.8;
+    letter-spacing: 1.1px;
+    text-align: center;
+    height: 25rem;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+div.why-choose-us h2 {
+    font-size: 25px;
+}
+
+div.why-choose-us p {
+    color: #afb2b6;
+}
+
+.pros {
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+    margin: 0 auto;
+    margin-top: -13rem;
+    width: 80%;
+
+}
+
+.pros .card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #0E8684;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem;
+    color: #FDFCF7;
+    border: 2px solid #0E8684;
+    border-radius: 13px;
+}
+
+.pros .card img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.pros .card h3 {
+    font-size: larger;
+    font-weight: 600;
+}
+
+#how-it-works {
+    color: grey;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 200px;
+}
+
+.how-it-works-steps {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin-left: 160px;
+}
+
+.how-it-works-steps .card {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 25px;
+
+}
+
+.how-it-works-steps .card h2 {
+    color: #FCD5BB;
+    font-size: 50px;
+    margin: 15px;
+}
+
+.how-it-works-steps .card h3 {
+    color: #303640;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.how-it-works-steps .card p {
+    font-size: 16px;
+    color: #303640;
+}
+
+#create-your-plan {
+    background-color: #0E8684;
+    color: #FDFCF7;
+    border: 3px solid #0E8684;
+    width: 10rem;
+    height: 2.5rem;
+    padding: 8px;
+    margin-left: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+/* ============================================================ */
+h3#we-are-expanding-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    margin: 0;
+    color: #303640;
+}
+
+.we-are-expanding {
+    text-align: center;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid #0E8684;
+    margin: 30px auto;
+    background-color: #0E8684;
+    color: #FDFCF7;
+    font-size: 32px;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 8px black;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+
+.we-are-expanding span {
+    font-size: 32px;
+}
+
+
+.footer {
+    background-color: #2D343C;
+    color: #afb2b6;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer #footer-1-span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 32px;
+    color: #FDFCF7;
+}
+
+.footer #footer-1-span img {
+    width: 30px;
+    margin: 15px;
+
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav span {
+    margin: 50px;
+}
+
+.footer span {
+    cursor: pointer;
+
+}
+
+.footer span:hover {
+    color: #FDFCF7;
+}
+
+.footer-nav img {
+    width: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
